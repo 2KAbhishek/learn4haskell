@@ -462,7 +462,8 @@ next x = x + 1
 --   whether it works for you!
 
 -- DON'T FORGET TO SPECIFY THE TYPE IN HERE
-lastDigit n = error "lastDigit: Not implemented!"
+lastDigit :: Int -> Int
+lastDigit n = mod n 10
 
 -- |
 -- =⚔️= Task 6
