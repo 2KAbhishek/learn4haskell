@@ -410,7 +410,7 @@ squareSum x y = (x + y) * (x + y)
 -- =⚔️= Task 4
 --
 -- Implement the function that takes an integer value and returns the next 'Int'.
---
+
 -- >>> next 10
 -- 11
 -- >>> next (-4)
@@ -422,7 +422,7 @@ squareSum x y = (x + y) * (x + y)
 --   every type ｡.☆.*｡. No need to worry much about "error" here, just replace the
 --   function body with the proper implementation.
 next :: Int -> Int
-next x = error "next: not implemented!"
+next x = x + 1
 
 -- |
 -- After you've implemented the function (or even during the implementation), you
